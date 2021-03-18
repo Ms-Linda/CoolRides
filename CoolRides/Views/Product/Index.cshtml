@@ -3,25 +3,25 @@
 <h2>Products</h2>
 <table class="table">
     <tr>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
+        <th>ID</th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>ReviewID</th>
+        <th>Year</th>
+        <th>In60</th>
+        <th>Price</th>
     </tr>
 
     @foreach (var product in Model)
     {
 <tr>
-    <td>@product. </td>
-    <td>@product. </td>
-    <td>@product. </td>
-    <td>@product. </td>
-    <td>@product. </td>
-    <td>@product. </td>
-    <td>@product. </td>
+    <td>@product.ProductID</td>
+    <td>@product.Make</td>
+    <td>@product.Model</td>
+    <td>@product.ReviewID</td>
+    <td>@product.Year</td>
+    <td>@product.In60</td>
+    <td>@product.Price</td>
 </tr>
 
     }
