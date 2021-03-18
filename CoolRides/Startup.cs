@@ -25,7 +25,7 @@ namespace CoolRides
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddControllersWithViews();
+            
             services.AddScoped<IDbConnection>((s) =>
             {
                 IDbConnection conn = new MySqlConnection(Configuration.GetConnectionString("coolrides"));
@@ -34,6 +34,7 @@ namespace CoolRides
             });
 
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
