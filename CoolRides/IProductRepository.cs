@@ -1,10 +1,10 @@
-﻿using HotRods.Models;
+﻿using CoolRides.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HotRods
+namespace CoolRides
 {
     public interface IProductRepository
     {

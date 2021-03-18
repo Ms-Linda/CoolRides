@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HotRods.Models
+namespace CoolRides.Models
 {
     public class Product
     {

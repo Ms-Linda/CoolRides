@@ -1,6 +1,6 @@
 using System;
 
-namespace HotRods.Models
+namespace CoolRides.Models
 {
     public class ErrorViewModel
     {

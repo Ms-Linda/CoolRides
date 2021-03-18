@@ -1,12 +1,12 @@
 ﻿using Dapper;
-using HotRods.Models;
+using CoolRides.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HotRods
+namespace CoolRides
 {
     public class ProductRepository : IProductRepository
     {
