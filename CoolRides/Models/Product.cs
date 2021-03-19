@@ -11,14 +11,15 @@ namespace CoolRides.Models
         {
         }
 
-        public int ProductID {get; set;}
-        public string Make {get; set;}
-        public string Model {get; set;}
-        public int ReviewID {get; set;}
-        public int Year {get; set;}
-        public int TopSpdMPH {get; set;}
-        public double Price {get; set;}
+        public int ProductID { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public int ReviewID { get; set; }
+        public int Year { get; set; }
+        public int TopSpdMPH { get; set; }
+        public int Price { get; set; }
 
 
+    }
 }
-}
+
